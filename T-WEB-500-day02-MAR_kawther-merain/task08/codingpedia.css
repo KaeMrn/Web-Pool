@@ -1,0 +1,48 @@
+.box {
+    border: 2px solid black;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+
+body {
+    background-color: gray;
+    justify-content: space-between;
+        
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    width: 80%;
+}
+
+aside {
+    width: 20%;
+}
+
+h1{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+  }
+
+.moving_square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-duration: 25s;
+    animation-name: square;
+}
+
+@keyframes square {
+  0% {background-color:red; left:0px; top:0px;}
+  25% {background-color:green; left:0px; top:300px;}
+  50% {background-color:blue; left:300px; top:300px;}
+  75% {background-color:yellow; left:300px; top:0px;}
+  100% {background-color:red; left:0px; top:0px;}
+}

@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    min-height: 100vh;
+
+}
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(46, 123, 159);
+    width: 50%;
+    margin-bottom: 1%;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(114, 217, 69);
+    gap: 3%;
+    margin-bottom: 3%;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    
+        
+}
+
+.article1, .article2{
+    background-color: rgb(253, 242, 114);    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    margin-bottom: 3%;
+    
+    
+}
+.firstrow{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin-bottom: 3%;
+    
+
+} 
+
+.article3, .article4{
+    background-color: rgb(228, 108, 232);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    margin-bottom: 3%;
+}
+
+
+.article5, .article6{
+    background-color: rgb(255, 31, 117);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    margin-bottom: 3%;
+}
+
+.secondrow{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin-bottom: 3%;
+}
+
+
+footer{
+    background-color: rgb(206, 29, 29);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 , p, h1, nav, ul{
+    padding: 1%
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}

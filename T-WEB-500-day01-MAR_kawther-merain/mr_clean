@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Find and delete files ending with ~ or starting and ending with #
+find . -type f \( -name '*~' -o -name '#*#' \) -exec rm {} \;

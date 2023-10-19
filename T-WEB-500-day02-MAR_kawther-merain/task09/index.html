@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingPedia</title>
+    <link rel="stylesheet" type="text/css" href="codingpedia.css">
+</head>
+
+<body>
+    <div class="moving_square"></div>
+     
+    <div class="top">
+     <header class="box">
+        <h1>Bienvenue!</h1>
+     </header>
+     <nav class="box">
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="php.html">PHP</a></li>
+            <li><a href="sql.html">SQL></a></li>
+        </ul>
+    </nav></div>
+ <div class="align">
+    <main class="box">
+        <p>CodingPedia is a collective encyclopedia project on the Internet aiming to be universal and multi-lingual
+            which functions as a wiki.<br>CodingPedia has for goal to offer freely reusable objective and verifiable
+            content that anyone can modify and improve.</p>
+
+        <article>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="Firstname">First name:</label><br>
+                <input type="text" id="Firstname" name="Firstname" required><br>
+                <label for="Email">Email:</label><br>
+                <input type="text" id="Email" name="Email" required><br>
+                <label for="Age">Age:</label><br>
+                <input type="number" id="Age" name="Age" min="3" max="99"><br>
+                <label for="Phone">Phone:</label><br>
+                <input type="tel" id="number" name="number" pattern="[0-9]{10}" ><br>
+                <label>Sex:</label>
+                <input type="radio" id="male" name="sex" value="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="sex" value="female"></label>
+                <label for="female">Female</label><br>                
+                <label for="haircolor">Hiar color:</label><br>
+                <input type="color" id="haircolor" name="haircolor"><br>
+                <label for="date">Date:</label><br>
+                <input type="date" id="date" name="date" required><br>
+                <label for="Technology">Technology:</label><br>
+                <select id="Technology" name="Technology">
+                    <option value="PHP">PHP</option>
+                    <option value="SQL">SQL</option>
+                </select><br>
+                <label for="question">Questions:</label><br>
+                <textarea id="question" name="question" required></textarea><br>
+                <button type="submit">Submit</button>
+
+            </form>
+        </article>
+    </main>
+    <aside class="box">
+        <p>Epitech 3rd year student</p>
+    </aside>
+  </div>
+    <footer class="box">
+        <address>
+            MERAIN - Kawther - Marseille 13006 - 0638044416
+        </address>
+    </footer>
+</body>

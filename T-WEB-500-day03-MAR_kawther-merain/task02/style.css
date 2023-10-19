@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    background-color: rgb(46, 123, 159);
+}
+
+.section1{
+    background-color: rgb(114, 217, 69);
+}
+
+.article1, .article2{
+    background-color: rgb(253, 242, 114);
+}
+
+footer{
+    background-color: rgb(206, 29, 29);
+    text-align: center;
+    margin-top: auto
+}
+
+h3 , p, h1, nav, ul{
+    padding: 1%
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
